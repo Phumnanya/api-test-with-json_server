@@ -1,0 +1,13 @@
+body {
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+button {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 15px;
+    border-radius: 18px;
+    border: none;
+    margin: 5px;
+}

@@ -1,5 +1,5 @@
 {
-    "name": "json-server-app",
+    "name": "json-server-glitch",
     "version": "1.0.0",
     "description": "Fake REST API using json-server",
     "main": "index.js",

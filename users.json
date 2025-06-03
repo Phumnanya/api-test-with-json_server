@@ -1,16 +1,8 @@
 {
   "users": [
     {
-      "name": "James Updated",
-      "id": "1"
-    },
+      "id": 1, "name": "James"},
     {
-      "id": "24a5",
-      "name": "Amara"
-    },
-    {
-      "id": "fd86",
-      "name": "Amara"
-    }
+      "id": 2, "name": "Simon"}
   ]
 }

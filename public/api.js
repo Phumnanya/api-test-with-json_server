@@ -1,16 +1,21 @@
 const apiurl = 'http://localhost:3000/users';
 
 //GET users
-fetch(apiurl)
-    .then(res => res.json())
-    .then(users => {
+async function fetchUsers() {
+    try {
+        const response = await fetch(apiurl);
+        const users = await response.json();
+
         const ul = document.getElementById('userslist');
         users.forEach(user => {
             const li = document.createElement('li');
             li.textContent = `${user.id}: ${user.name}`;
             ul.appendChild(li);
         });
-    });
+    } catch (error) {
+        console.error('Error fetching users:', error);
+    }
+}
 
 //POST: used to add new user
 function adduser() {
